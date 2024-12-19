@@ -1,0 +1,83 @@
+
+/* stylesheet.css */
+
+
+
+/* Div that contains content between header and footer */
+
+/* style rule for the body element */
+/* style rule for the wrapper div */
+
+#wrapper{
+width:900px;
+margin:0 auto;
+background color: black;
+}
+
+img.even {float: left;padding-right: 18px}
+img.odd {float: right; padding-left: 18px}
+div {clear:both;}
+ 
+body {
+	background-color: black;
+	}
+
+h1, h2 {margin: 0}
+
+h2 {border-top: 1px solid #4D65A0 }
+
+
+
+h1 {
+	color:white;
+	text-align:center;
+	font-size: 2.5em;
+	font-family: Arial Black; Verdana;
+	}
+
+h2, img {border-top: 1px solid #4D65A0}
+
+p { margin-top: 0; margin-bottom:12px; line-height:1.2}
+
+
+ .kitten {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+	padding: 2em;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: right;
+}
+
+.cat {
+	width:100px;
+	height: auto;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 2em;
+	text-align: left;
+}
+
+.headline {
+	font-size: 2em;
+	color: white;
+	text-align: center;
+
+
+}
+
+
+.headline-container {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	flex-grow: 1;
+	justify-content: center;
+}
+
+.meat {color: white;
+		text-align: justify;
+		width: 850px;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
